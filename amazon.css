@@ -1,0 +1,478 @@
+*{
+    margin:0px;
+    
+    border:border-box;
+    font-family:arial;
+}
+#navbar{
+    height:60px;
+    background-color:rgb(2, 15, 2);
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav_logo{
+    width:113px;
+    height:50px;
+
+}
+#logo{
+    background-image: url("Amazon-Emblem.jpg");
+    background-size: cover;
+   width :110px;
+    height:50px;
+}
+.border:hover{
+    border:2px solid white;
+    padding:5px 5px 5px 5px;
+    
+}
+
+
+#add_icon{
+    display:flex;
+    align-items:center;
+}
+#ad1{
+    font-size:0.8rem;
+    color:#cccccc;
+    margin-left:15px;
+}
+#ad2{margin-left:3px;
+    font-size:1.25rem;
+    color:#ffffff;
+
+}
+.search{
+    display:flex;
+    background-color: rgb(232, 181, 12);
+    border-radius:4px;
+    width:700px;
+    height:50px;
+    justify-content: space-evenly;
+}
+.search:hover{
+    border:2px solid orange;
+}
+#select{
+    border-top-left-radius:4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+    width:50px;
+    text-align: center;
+    font-size:1rem;
+    background-color: #eae4e4;
+}
+#searching{
+    width:100%;
+    font-size:1rem;
+    border:none;
+}
+#icon{
+    width:50px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size:1.5rem;
+    color:black;
+}
+.lang{
+    background-color: black;
+    display:flex;
+    width:80px;
+    justify-content:flex-start;
+}
+
+
+#flag{
+    background-image:url("flag.jpg");
+    background-size:cover;
+    width:100px;
+}
+#language{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-arround;
+}
+.sign{
+    font-size: 0.85rem;
+}
+.acc{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.cart{
+    display: flex;
+}
+.cart i{
+    font-size:30px;
+    }
+.panel{
+    background-color: rgb(11, 95, 11);
+    display: flex;
+    height:40px;
+    color:white;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.option{
+    display:flex;
+    /* margin-left: 9px; */
+    width:90%;
+
+}
+.option p{
+    margin-left: 15px;
+}
+.option p:hover{
+    border:2px solid white;
+    padding:5px 5px 5px 5px;
+}
+.hero{
+    background-image: url("hero_section.jpg");
+    background-size: cover;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+#hero-msg{
+    background-color: white;
+    color:black;
+    height:40px;;
+    width:90%;
+    display:flex;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 85px;
+}
+#hero-msg a{
+    text-decoration: none;
+    color:rgb(11, 81, 11);
+}
+#hero-msg a:hover{
+    color:red;
+    text-decoration: underline;
+}
+.shop_section{
+    background-color: rgb(191, 172, 183);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box{
+    background-color: white;
+    margin-top:15px;
+    height:400px;
+    width:23%;
+    border:none;
+    padding:20px 0px 15px;
+}
+.image1{
+    height:300px;
+    background-image:url("box1.jpg") ;
+    background-size: cover;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+.b1content{
+    margin-left:1rem;
+    margin-right: 1rem;
+}
+.b1content a{
+    color:rgb(11, 81, 11);
+    font-size:0.87rem;
+    text-decoration: none;
+}
+.b1content p{
+    color:rgb(11, 81, 11);
+    font-size:0.87rem;
+}
+.b1content p:hover{
+    color:red;
+}
+.b1content a:hover{
+    color:red;
+}
+.image2{
+    background-image: url("box3.jpg");
+    height:300px;
+    background-size: cover;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+.image3{
+    background-image: url("box4.jpg");
+    height:300px;
+    background-size: cover;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+.image4{
+    background-image: url("box2.jpg");
+    height:300px;
+    background-size: cover;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+
+.image5{
+    background-image: url("b1.jpg");
+    height:300px;
+    background-size: cover;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+.image6{
+    background-image: url("b2.jpg");
+    height:300px;
+    background-size: cover;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+.image7{
+    background-image: url("b3.jpg");
+    height:300px;
+    background-size: cover;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+.image8{
+    background-image: url("b4.jpg");
+    height:300px;
+    background-size: cover;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+.image9{
+    background-image: url("image.jpg");
+    background-size: cover;
+    height:260px;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    width:97%;
+}
+.image10{
+    background-image: url("image9.jpg");
+    height:300px;
+    background-size: cover;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+.image11{
+    background-image: url("image10.jpg");
+    height:300px;
+    background-size: cover;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}.image12{
+    background-image: url("image11.jpg");
+    height:300px;
+    background-size: cover;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}.image13{
+    background-image: url("image12.jpg");
+    height:300px;
+    background-size: cover;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+.signin{
+    background-color: rgb(191, 172, 183);
+    display: flex;
+}
+.d2{
+    background-color: white;
+    margin-top:15px;
+    height:150px;
+    width:100%;
+    border:none;
+    padding:20px 0px 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.d3{height:125px;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    border-top:1px solid black;
+    display:flex;
+    flex-wrap:wrap;
+
+}
+.par1{
+    font-size: 0.85rem;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.sig{
+    
+    display:flex;
+    justify-content: center;
+align-items: center;
+background-color: rgb(227, 191, 72);
+height:25px;
+border:0.5px solid red;
+border-radius:4px;
+width:200px;
+}
+.sig a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.par2{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+    font-size:0.70rem;
+    
+}
+.p2 a{
+    color:rgb(89, 148, 89);
+    font-weight:300;
+}
+.p2 a:hover{
+    color:red;
+
+}
+.back{
+    background-color:#233e5d;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    width:100%;
+    font-size:0.85rem;
+}
+.paragraph{
+    background-color: #232f3e ;
+    height:400px;
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: top;
+   color:white;
+   border-bottom:0.2px solid white;
+}
+.pm{
+    margin-top:80px;
+}
+.pm li{
+    margin-top:10px;
+    list-style-type: none;
+    font-size:0.90rem;
+}
+.log2{
+    height:100px;
+    width:100%;
+    background-color: #232f3e;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.log3{
+    background-image: url("blue.png");
+    background-size: cover;
+   width :100px;
+    height:45px;
+}
+.globe{
+    color:white;
+    opacity:0.8;
+    display:flex;
+    font-size:0.85rem;
+    margin-left:100px;
+}
+.eng{
+border:0.5px solid white;
+padding:5px 5px 5px 5px;
+
+}
+.dl{
+    margin-left:5px;
+    border:0.5px solid white;
+padding:5px 5px 5px 5px;
+}
+.us{
+    display:flex;
+    margin-left:5px;
+    border:0.5px solid white;
+padding:5px 5px 5px 5px;
+}
+.usflag{
+background-image: url("flag.jpg");
+background-size: cover;
+height:15px;
+width:20px;
+margin-right:4px;
+}
+.mpara{
+    background-color:#131a22;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:400px;
+    width:100%;
+    color:#dddddd;
+
+    flex-wrap:wrap;
+
+}
+.pm1{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height:50px;
+    width:20%;
+    margin:0px 10px 5px 0px;
+}
+.pm1 li{
+    font-size:0.73rem;
+
+    color:#dddddd;
+    opacity:0.7;
+    list-style-type: none;
+}
+.pm1 h4{
+    font-size:0.70rem;
+    opacity:0.88;
+}
+.lstfoot{
+    height:90px;
+    background-color: #131a22;
+    color: #dddddd;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.choice{
+    display:flex;
+    font-size:0.80rem;
+    opacity:0.88;
+}
+.c1{
+    margin-right:15px;
+}
+.c2{
+    font-size:0.80rem;
+    opacity:0.88;
+    margin-top:10px;
+    margin-bottom:15px;
+}
